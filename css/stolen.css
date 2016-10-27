@@ -1,0 +1,30 @@
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+
+/****************************************************************************
+    *-*-*HEADER-*-*
+****************************************************************************/
+
+header { width: 100%; background: url("../images/shadow.png") top center repeat-x; min-height: 209px; text-align: center; position: relative; z-index: 99999;}
+body:not(.home) .header-wrap { background-color: #cccccc; }
+header nav { width: 100%; max-width: 1170px; margin: 50px auto; text-align: center; }
+
+nav > ul { display: inline-block; }
+nav > ul > li  { position: relative; text-transform: uppercase; padding: 15px 0; float: left; border-top:1px solid rgba(242,234,235,0.3); border-bottom:1px solid rgba(242,234,235,0.3); }
+nav ul li a { cursor: pointer; margin: 0 39px; display: block; font:700 14px 'Lato', sans-serif; color: #ffffff; }
+nav ul li a:hover {color: #e9b500;text-decoration: none;}
+nav ul li a.active {color: #e9b500;}
+
+.logo { margin: 0 30px 0; display: inline-block; vertical-align: -10px; }
+
+.responsive-nav { text-align: left; display: none; position: relative; }
+.responsive-nav a.open  { display: block; line-height: 47px; position: relative;padding-left: 18px; background: #111111 url("../images/responsive-errow.png") 96% center no-repeat; }
+.responsive-nav a.open:hover,
+.responsive-nav a.open:active,
+.responsive-nav a.open:focus { color: #ffffff; }
+.responsive-nav ul { background: rgba(17,17,17,0.7); position: absolute; width: 100%; top: 40px; left: 0; display: none; }
+.responsive-nav ul li {padding-left: 18px;}
+.responsive-nav ul li a { cursor: pointer; display: block; font:700 14px 'Lato', sans-serif; color: #ffffff;padding: 15px 0;  }
+.responsive-nav ul li a:hover { color: #e9b500; }
