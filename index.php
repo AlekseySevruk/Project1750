@@ -12,7 +12,7 @@
         <title>17:50 Project </title>
 
         <!-- Bootstrap Core CSS -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
 
         <!-- Custom CSS -->
         <link href="css/stylish-portfolio.css" rel="stylesheet">
@@ -60,7 +60,7 @@
 
         <div class="header-wrap">
 
-            <header id="home" class="clearfix">
+            <header id="top" class="header clearfix">
 
                 <nav class="clearfix menu">
                     <ul class="left-nav clearfix">
@@ -75,36 +75,42 @@
                     <ul class="left-nav">
                         <li><a href="#work" class="fix">Work</a></li>                      
                         <li><a href="#blog" class="fix">Blog</a></li>                     
-                        <li><a href="#contact" class="fix">Contact</a></li>                                     </ul>
+                        <li><a href="#contact" class="fix">Contact</a></li>                                     
+                    </ul>
                 </nav>
 
                 <div class="responsive-nav menu">
                     <a href="#" class="open">Main Navigation</a>
                     <ul>
-                        <li><a href="#home" class="fix">Home</a></li>                      <li><a href="#about" class="fix">About</a></li>                      <li><a href="#services" class="fix">Services</a></li>                      <li><a href="#work" class="fix">Work</a></li>                      <li><a href="#blog" class="fix">Blog</a></li>                      <li><a href="#contact" class="fix">Contact</a></li>                                                         </ul>
+                        <li><a href="#home" class="fix">Home</a></li>                      
+                        <li><a href="#about" class="fix">About</a></li>                      
+                        <li><a href="#services" class="fix">Services</a></li>                      
+                        <li><a href="#work" class="fix">Work</a></li>                      
+                        <li><a href="#blog" class="fix">Blog</a></li>                      
+                        <li><a href="#contact" class="fix">Contact</a></li>                                                         
+                    </ul>
                 </div>
-
-            
-
+                <!-- Header -->
+                <!--        <header id="top" class="header">-->
+                <div class="row">
+                    <div class="text-center">
+                        <h1>Diesel Desire Studios</h1>
+                        <h3>Don't be afraid to Make &amp; Dream</h3>
+                        <br>
+                        <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+                    </div>
+                </div>
+            </header>
         </div>
-
-        <!-- Header -->
-<!--        <header id="top" class="header">-->
-            <div class="text-vertical-center">
-                <h1>Diesel Desire Studios</h1>
-                <h3>Don't be afraid to Make &amp; Dream</h3>
-                <br>
-                <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
-            </div>
-        </header>
-
         <!-- About -->
         <section id="about" class="about">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-                        <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+                        <p class="lead">This theme features some wonderful photography courtesy of 
+                            <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.
+                        </p>
                     </div>
                 </div>
                 <!-- /.row -->
