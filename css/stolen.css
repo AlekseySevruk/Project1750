@@ -5,7 +5,8 @@
 .clearfix:after { 
     clear: both; 
 }
-.clearfix { *zoom: 1; }
+.clearfix { *zoom: 1; 
+}
 
 
 /****************************************************************************
@@ -67,7 +68,8 @@ nav ul li a.active {
 .logo { 
     margin: 0; 
     display: inline-block; 
-    vertical-align: -10px; }
+    vertical-align: -10px; 
+}
 
 .responsive-nav { 
     text-align: left; 
@@ -82,6 +84,7 @@ nav ul li a.active {
     background: #111111 url("../images/responsive-errow.png") center no-repeat; 
 
 }
+
 .responsive-nav a.open:hover,
 .responsive-nav a.open:active,
 .responsive-nav a.open:focus { 
@@ -107,4 +110,152 @@ nav ul li a.active {
 }
 .responsive-nav ul li a:hover { 
     color: #e9b500; 
+}
+
+/****************************************************************************
+        *-*-*ABOUT TEAM-*-*
+****************************************************************************/
+
+.container_wrapper { 
+    background: #ffffff; 
+    overflow-x: hidden; 
+}
+.about-wrap { 
+    text-align: center; 
+    margin-bottom: 119px; 
+    padding-top: 90px;
+}
+.about-wrap h2 {  
+    display: inline-block; 
+    margin-bottom: 52px;  
+}
+
+.about figure {
+    width: 368px; 
+    height: 238px;
+    border-radius: 7px;
+    display: inline-block; 
+    overflow: hidden;
+}
+.about figure img { 
+    width: 100%; 
+}
+.about > div { 
+    display: inline-block;
+    width: 368px; 
+    text-align: left;
+    margin-left: 30px;
+}
+
+.progress-bars div { 
+    display: block; 
+    margin-left: 0px; 
+}
+.progress-bars p {
+    /*font:700 13px 'Lato', sans-serif;*/ 
+    color: #3b4c5a; 
+    margin-bottom: 10px;
+}
+.progress-bars .base { 
+    margin-bottom: 22px; 
+    width: 360px; 
+    border-radius: 10px; 
+    height: 20px; 
+    background: #f3f3f3;
+    overflow: hidden;
+}
+.progress-bars .base div {  
+    height: 20px; 
+    background: #ebc40d; 
+    color: #ffffff; 
+    padding-left: 20px;
+    /*font:13px 'Lato', sans-serif;*/
+    line-height: 20px;
+}
+.progress-bars .base div span {
+    font-weight: 700;
+}
+
+.about {
+    margin-bottom: 100px;
+}
+.about div h5 {
+    margin-bottom: 28px;
+}
+
+.our-team {
+    width: 1170px; 
+    margin:0 auto;
+}
+.our-team h3 {
+    text-align: left; 
+    margin-bottom: 24px; 
+    color: #292d33;
+}
+.our-team div {
+    width: 262.5px; 
+    margin-right:30px; 
+    text-align: left; 
+    display: inline-block;
+    float: left; 
+}
+
+.our-team figure .overlay { 
+    background: rgba(40,31,22,0.8); 
+    position: absolute;
+    top: 0; 
+    left:0; 
+    display: none;
+}
+.our-team figure .overlay .social-icon { 
+    text-align: center; 
+    line-height: 174px; 
+}
+.our-team figure .overlay .social-icon a { 
+    width: 35px; 
+    height: 35px; 
+    font-size: 18px; 
+    line-height: 35px; 
+    border-radius: 5px; 
+    border: 2px solid #ffffff; 
+    color: #ffffff; 
+    display: inline-block; 
+    vertical-align: middle; 
+    margin: 0 2px;
+}
+.our-team figure .overlay .social-icon a:hover { 
+    color: #000000; 
+    border-color: #000000; 
+    text-decoration: none; 
+}
+
+.our-team figure {
+    width: 259px; 
+    height: 170px; 
+    margin-bottom: 17px; 
+    position: relative; 
+    border-radius: 7px;
+    overflow: hidden; 
+}
+.our-team figure > a {
+    width: 259px; 
+    display: block;  
+    height: 170px;
+    border-radius: 7px;
+}
+.our-team figure img { 
+    width: 100%; 
+    height: 100%; 
+    border-radius: 7px; 
+}
+
+.our-team span {
+    font:700 14px 'Lato', sans-serif; 
+    color: #ebbf0d; 
+    margin-bottom:10px ;
+}
+.our-team h4 {
+    font:24px 'Lato', sans-serif; 
+    color: #292d33; 
+    margin-bottom: 10px; 
 }

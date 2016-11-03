@@ -17,6 +17,7 @@
         <!-- Custom CSS -->
         <link href="css/stylish-portfolio.css" rel="stylesheet">
         <link href="css/stolen.css" rel="stylesheet" type="text/css"/>
+        <link href="css/pricing.css" rel="stylesheet" type="text/css"/>
         <!-- Custom Fonts -->
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -59,9 +60,7 @@
         </nav>-->
 
         <div class="header-wrap">
-
             <header id="top" class="header clearfix">
-
                 <nav class="clearfix menu">
                     <ul class="left-nav clearfix">
                         <li><a href="#home" class="fix">Home</a></li>                      
@@ -71,11 +70,12 @@
                     <div class="logo">
                         <a href="http://pixarwpthemes.net/reborn">
                             <img src="http://pixarwpthemes.net/reborn/wp-content/uploads/2013/09/logo.png" alt="Rebor Retro"></a>
+                            <!--<img src="img/Logo.png" alt="Logo 17:50"/>-->
                     </div>
                     <ul class="left-nav">
                         <li><a href="#work" class="fix">Work</a></li>                      
-                        <li><a href="#blog" class="fix">Blog</a></li>                     
-                        <li><a href="#contact" class="fix">Contact</a></li>                                     
+                        <li><a href="#price" class="fix">Цены</a></li>                     
+                        <li><a href="#contact" class="fix">Контакты</a></li>                                     
                     </ul>
                 </nav>
 
@@ -86,8 +86,8 @@
                         <li><a href="#about" class="fix">About</a></li>                      
                         <li><a href="#services" class="fix">Services</a></li>                      
                         <li><a href="#work" class="fix">Work</a></li>                      
-                        <li><a href="#blog" class="fix">Blog</a></li>                      
-                        <li><a href="#contact" class="fix">Contact</a></li>                                                         
+                        <li><a href="#price" class="fix">Цены</a></li>                      
+                        <li><a href="#contact" class="fix">Контакты</a></li>                                                         
                     </ul>
                 </div>
                 <!-- Header -->
@@ -103,7 +103,8 @@
             </header>
         </div>
         <!-- About -->
-        <section id="about" class="about">
+        <section id="info" class="info">
+
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -256,25 +257,231 @@
             </div>
         </aside>
 
-        <!-- Map -->
-        <section id="contact" class="map">
-            <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-            <br />
-            <small>
-                <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-            </small>
-        </iframe>
+        <!-- Price -->
+        <section id="price" class="pricing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 table-responsive text-center">
+                        <table class="table table-hover">
+                            <tbody>
+                                <tr>
+                                    <th class="plan-header plan-header-free"> </th>
+                                    <th class="plan-header plan-header-blue">
+                                        <div class="pricing-plan-name">Сайт&#160;визитка</div>
+                                        <div class="pricing-plan-price">
+                                            <sup>от</sup>&#160;999&#160;<span>грн</span>
+                                        </div>
+                                    </th>
+                                    <th class="plan-header plan-header-standard">
+                                        <div class="pricing-plan-name">Langing&#160;page</div>
+
+                                        <div class="pricing-plan-price">
+                                            <sup>от</sup>&#160;999&#160;<span>грн</span>
+                                        </div>
+                                    </th>
+                                    <th class="plan-header plan-header-blue">
+                                        <div class="pricing-plan-name">Корпоративный&#160;сайт</div>
+                                        <div class="pricing-plan-price">
+                                            <sup>от</sup>&#160;2500&#160;<span> грн</span>
+                                        </div>
+
+                                    </th>
+                                    <th class="plan-header plan-header-standard">
+                                        <div class="header-plan-inner">
+                                            <!--<span class="plan-head"> </span>-->
+                                            <!--<span class="recommended-plan-ribbon">RECOMMENDED</span>-->
+                                            <div class="pricing-plan-name">Интернет&#160;магазин</div>
+                                            <div class="pricing-plan-price">
+                                                <sup>от</sup>&#160;250&#160;<span>$</span>
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <th class="plan-header plan-header-blue">
+                                        <div class="pricing-plan-name">Уникальный&#160;проект</div>
+                                        <div class="pricing-plan-price">
+                                            <sup>цена договорная</sup><span></span>
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>Количество страниц:</td>
+                                    <td>1 (длинная)</td>
+                                    <td>до 4</td>
+                                    <td>10</td>
+                                    <td>20</td>
+                                    <td> обговаривается</td>
+                                </tr> 
+                                <tr>
+                                    <td>Базовое наполнение сайта:</td>
+                                    <td><span class="icon-yes glyphicon glyphicon-ok-circle"></span></td>
+                                    <td><span class="icon-yes glyphicon glyphicon-ok-circle"></span></td>
+                                    <td><span class="icon-yes glyphicon glyphicon-ok-circle"></span></td>
+                                    <td><span class="icon-yes glyphicon glyphicon-ok-circle"></span></td>
+                                    <td><span class="icon-yes glyphicon glyphicon-ok-circle"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Добавление в Google, Яндекс:</td>
+                                    <td><span class="icon-no glyphicon glyphicon-remove-circle"></span></td>
+                                    <td><span class="icon-no glyphicon glyphicon-remove-circle"></span></td>
+                                    <td><span class="icon-yes glyphicon glyphicon-ok-circle"></span></td>
+                                    <td><span class="icon-yes glyphicon glyphicon-ok-circle"></span></td>
+                                    <td><span class="icon-yes glyphicon glyphicon-ok-circle"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Мультиязычность:</td>
+                                    <td><span class="icon-no glyphicon glyphicon-remove-circle"></span></td>
+                                    <td><span class="icon-no glyphicon glyphicon-remove-circle"></span></td>
+                                    <td><span class="icon-no glyphicon glyphicon-remove-circle"></span></td>
+                                    <td><span class="icon-yes glyphicon glyphicon-ok-circle"></span></td>
+                                    <td><span class="icon-yes glyphicon glyphicon-ok-circle"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Форма обратной связи:</td>
+                                    <td><span class="icon-no glyphicon glyphicon-remove-circle"></span></td>
+                                    <td><span class="icon-no glyphicon glyphicon-remove-circle"></span></td>
+                                    <td><span class="icon-yes glyphicon glyphicon-ok-circle"></span></td>
+                                    <td><span class="icon-yes glyphicon glyphicon-ok-circle"></span></td>
+                                    <td><span class="icon-yes glyphicon glyphicon-ok-circle"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Тех.поддержка :</td>
+                                    <td><span class="icon-yes glyphicon glyphicon-ok-circle"></span></td>
+                                    <td><span class="icon-yes glyphicon glyphicon-ok-circle"></span></td>
+                                    <td><span class="icon-yes glyphicon glyphicon-ok-circle"></span></td>
+                                    <td><span class="icon-yes glyphicon glyphicon-ok-circle"></span></td>
+                                    <td><span class="icon-yes glyphicon glyphicon-ok-circle"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Время разработки</td>
+                                    <td>3-5 дней</td>
+                                    <td>3-5 дней</td>
+                                    <td>7-14 дней</td>
+                                    <td>от 10 дней</td>
+                                    <td>обговаривается</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td class="action-header">
+                                        <a class="btn btn-success">
+                                            Заказать
+                                        </a>
+                                    </td>
+                                    <td class="action-header">
+                                        <a class="btn btn-success">
+                                            Заказать
+                                        </a>
+                                    </td>
+                                    <td class="action-header">
+                                        <a class="btn btn-success">
+                                            Заказать
+                                        </a>
+                                    </td>
+                                    <td class="action-header">
+                                        <a class="btn btn-success">
+                                            Заказать
+                                        </a>
+                                    </td>
+                                    <td class="action-header">
+                                        <a class="btn btn-success">
+                                            Заказать
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <section>
+        <div class="about-wrap" id="about">            
+            <div class="our-team clearfix">
+                <h3>Наша команда</h3>                     
+                <div class="team">
+                    <figure>
+                        <a href="#"><img src="http://pixarwpthemes.net/reborn/wp-content/uploads/2013/09/team-img.png" alt="John Doe"></a>
+                        <div class="overlay">
+                            <div class="social-icon">
+                                <a href="#" class="fa fa-twitter" target="_blank"></a>
+                                <a href="#" class="fa fa-behance" target="_blank"></a>
+                                <a href="#" class="fa fa-linkedin" target="_blank"></a>
+                                <a href="#" class="fa fa-facebook" target="_blank"></a>                            
+                            </div>
+                        </div>
+                    </figure>
+                    <span>CEO</span>
+                    <h4>John Doe</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+                <div class="team">
+                    <figure>
+                        <a href="#">
+                            <img src="http://pixarwpthemes.net/reborn/wp-content/uploads/2013/09/team-img2.png" alt="John Doe">
+                        </a>
+                        <div class="overlay">
+                            <div class="social-icon">
+                                <a href="#" class="fa fa-pinterest" target="_blank"></a>
+                                <a href="#" class="fa fa-behance" target="_blank"></a>
+                                <a href="#" class="fa fa-linkedin" target="_blank"></a>
+                                <a href="#" class="fa fa-dribbble" target="_blank"></a>                            
+                            </div>
+                        </div>
+                    </figure>
+                    <span>Owner</span>
+                    <h4>John Doe</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+                <div class="team">
+                    <figure>
+                        <a href="#"><img src="http://pixarwpthemes.net/reborn/wp-content/uploads/2013/09/team-img3.png" alt="John Doe"></a>
+                        <div class="overlay" style="display: none;">
+                            <div class="social-icon">
+                                <a href="#" class="fa fa-pinterest" target="_blank"></a>
+                                <a href="#" class="fa fa-google-plus" target="_blank"></a>
+                                <a href="#" class="fa fa-dribbble" target="_blank"></a>
+                                <a href="#" class="fa fa-youtube" target="_blank"></a>                            
+                            </div>
+                        </div>
+                    </figure>
+                    <span>Designer</span>
+                    <h4>John Doe</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+                <div class="team">
+                    <figure>
+                        <a href="#"><img src="http://pixarwpthemes.net/reborn/wp-content/uploads/2013/09/team-img4.png" alt="John Doe"></a>
+                        <div class="overlay">
+                            <div class="social-icon">
+                                <a href="#" class="fa fa-pinterest" target="_blank"></a>
+                                <a href="#" class="fa fa-twitter" target="_blank"></a>
+                                <a href="#" class="fa fa-google-plus" target="_blank"></a>
+                                <a href="#" class="fa fa-facebook" target="_blank"></a>                            
+                            </div>
+                        </div>
+                    </figure>
+                    <span>Engineer</span>
+                    <h4>John Doe</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Start Bootstrap</strong>
-                    </h4>
-                    <p>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</p>
+                <div class="col-lg-5 col-lg-offset-1 text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1111.6715434130908!2d35.04405536290138!3d48.494596338726645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1478195651478" 
+                            width="600" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>        
+                </div>          
+                <div class="col-lg-offset-1 col-lg-5 text-center">
+                    <h4><strong>17:50 studio</strong></h4>
+                    <p>ул. Радистов, 10
+                        <br>Днепропетровск, Украина</p>
                     <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
                         <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
@@ -292,8 +499,12 @@
                             <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
+                    <p class="">Copyright &copy; Your Website 2014</p>
                 </div>
             </div>
         </div>

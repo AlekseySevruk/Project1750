@@ -237,10 +237,17 @@ hr.small {
     pointer-events: none;
 }
 
-/* Footer */
-
+/****************************************************************************
+        *-*-*Footer-*-*
+****************************************************************************/
 footer {
-    padding: 100px 0;
+    padding: 100px 0 0 0;
+    background: url("../img/custom/bg3.jpg");
+    color: white;
+}
+.footer p {
+    color: white;
+    font-weight: bold;
 }
 
 #to-top {
