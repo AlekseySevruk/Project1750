@@ -13,8 +13,9 @@
 *-*-*HEADER-*-*
 ****************************************************************************/
 
-.menu { display: flex; 
-        justify-content: space-around;
+.menu { 
+    display: flex; 
+    justify-content: space-around;
 }
 
 header { 

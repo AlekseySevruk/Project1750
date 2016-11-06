@@ -395,13 +395,16 @@
         </div>
     </section>
 
+        
+    <!-- Наша команда -->    
     <section>
         <div class="about-wrap" id="about">            
             <div class="our-team clearfix">
                 <h3>Наша команда</h3>                     
                 <div class="team">
                     <figure>
-                        <a href="#"><img src="http://pixarwpthemes.net/reborn/wp-content/uploads/2013/09/team-img.png" alt="John Doe"></a>
+                        <!--<a href="#"><img src="http://pixarwpthemes.net/reborn/wp-content/uploads/2013/09/team-img.png" alt="John Doe"></a>-->
+                        <a href="#"><img src="img/people/Aleksandr.jpg" alt="Aleksandr"/></a>
                         <div class="overlay">
                             <div class="social-icon">
                                 <a href="#" class="fa fa-twitter" target="_blank"></a>
@@ -411,15 +414,16 @@
                             </div>
                         </div>
                     </figure>
-                    <span>CEO</span>
-                    <h4>John Doe</h4>
+                    <span>Owner</span>
+                    <h4>Aleksandr</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                 </div>
                 <div class="team">
                     <figure>
-                        <a href="#">
+<!--                        <a href="#">
                             <img src="http://pixarwpthemes.net/reborn/wp-content/uploads/2013/09/team-img2.png" alt="John Doe">
-                        </a>
+                        </a>-->
+                        <a href="#"><img src="img/people/Alexey.jpg" alt="Alexey"/></a>
                         <div class="overlay">
                             <div class="social-icon">
                                 <a href="#" class="fa fa-pinterest" target="_blank"></a>
@@ -429,13 +433,14 @@
                             </div>
                         </div>
                     </figure>
-                    <span>Owner</span>
-                    <h4>John Doe</h4>
+                    <span>PhP Developer</span>
+                    <h4>Alexey</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                 </div>
                 <div class="team">
                     <figure>
-                        <a href="#"><img src="http://pixarwpthemes.net/reborn/wp-content/uploads/2013/09/team-img3.png" alt="John Doe"></a>
+                        <!--<a href="#"><img src="http://pixarwpthemes.net/reborn/wp-content/uploads/2013/09/team-img3.png" alt="John Doe"></a>-->
+                        <a href="#"><img src="img/people/Anastasia.jpg" alt="Anastasia"/></a>
                         <div class="overlay" style="display: none;">
                             <div class="social-icon">
                                 <a href="#" class="fa fa-pinterest" target="_blank"></a>
@@ -445,13 +450,15 @@
                             </div>
                         </div>
                     </figure>
-                    <span>Designer</span>
-                    <h4>John Doe</h4>
+                    <span>PhP Developer</span>
+                    <h4>Anastasia</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                 </div>
                 <div class="team">
                     <figure>
-                        <a href="#"><img src="http://pixarwpthemes.net/reborn/wp-content/uploads/2013/09/team-img4.png" alt="John Doe"></a>
+                        <!--<a href="#"><img src="http://pixarwpthemes.net/reborn/wp-content/uploads/2013/09/team-img4.png" alt="John Doe"></a>-->
+                        <a href="#"><img src="img/people/Andrey.jpg" alt=""/>Andrey</a>
+
                         <div class="overlay">
                             <div class="social-icon">
                                 <a href="#" class="fa fa-pinterest" target="_blank"></a>
@@ -461,14 +468,13 @@
                             </div>
                         </div>
                     </figure>
-                    <span>Engineer</span>
-                    <h4>John Doe</h4>
+                    <span>Front-end</span>
+                    <h4>Andrey</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                 </div>
             </div>
         </div>
     </section>
-
 
     <!-- Footer -->
     <footer>
