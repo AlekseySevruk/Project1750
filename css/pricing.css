@@ -1,0 +1,66 @@
+/****************************************************************************
+*-*-*PRICING SECTION-*-*
+****************************************************************************/
+
+.pricing {
+    background: url("../img/custom/bg2.jpg");
+    padding: 50px 0;
+}/*
+
+.membership-pricing-table {
+    width: auto;
+}
+
+*/table .icon-no, table .icon-yes {
+    font-size: 22px
+}
+
+table .icon-no {
+    color: #a93717
+}
+
+table .icon-yes {
+    color: #209e61
+}
+
+table .plan-header {
+    text-align: center;
+    font-size: 20px;
+    /*border: 1px solid #e2e2e2;*/
+    padding: 25px 5px;
+}
+
+table .plan-header-free {
+    background-color: #fafafa;
+    color: #555
+}
+
+table .plan-header-blue {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #3989c6
+}
+
+table .plan-header-standard {
+    color: #fff;
+    background-color: #ff9317;
+    border-color: #e37900
+}
+
+table td, td {
+    padding: 7px 10px;
+    background-color: rgba(250, 250, 250, 0.4);
+    font-size: 14px;
+    -webkit-box-shadow: 0 1px 0 #fff inset;
+    box-shadow: 0 1px 0 #fff inset;
+}
+
+table, table td {
+    border: 1px solid #ebebeb
+}
+
+table tr td:first-child {
+    background-color: #fafafa;
+    text-align: right;
+    width: 24%
+}
