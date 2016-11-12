@@ -1,21 +1,19 @@
-.clearfix:before, .clearfix:after { 
-    content: ""; 
-    display: table; 
-}
-.clearfix:after { 
-    clear: both; 
-}
-.clearfix { *zoom: 1; 
-}
 
 
 /****************************************************************************
 *-*-*HEADER-*-*
 ****************************************************************************/
 
-.menu { 
+#header-nav { 
     display: flex; 
     justify-content: space-around;
+    width: 100%;
+}
+
+nav.fixed {
+    position:fixed;
+    top:0; left:0;
+    width:100%;
 }
 
 header { 

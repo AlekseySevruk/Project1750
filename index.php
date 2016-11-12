@@ -61,7 +61,7 @@
 
         <div class="header-wrap">
             <header id="top" class="header clearfix">
-                <nav class="clearfix menu">
+                <nav id="header-nav" class="clearfix menu default">
                     <ul class="left-nav clearfix">
                         <li><a href="#home" class="fix">Home</a></li>                      
                         <li><a href="#about" class="fix">About</a></li>                      
@@ -525,6 +525,20 @@
 
     <!-- Custom Theme JavaScript -->
     <script>
+        //Scrolling menu
+        $(function(){
+ 
+        var $menu = $(".menu");
+ 
+        $(window).scroll(function(){
+            if ( $(this).scrollTop() > 100 && $menu.hasClass("default") ){
+                $menu.removeClass("default").addClass("fixed");
+            } else if($(this).scrollTop() <= 100 && $menu.hasClass("fixed")) {
+                $menu.removeClass("fixed").addClass("default");
+            }
+        });
+    });
+
         // Closes the sidebar menu
         $("#menu-close").click(function (e) {
             e.preventDefault();
