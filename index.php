@@ -21,7 +21,8 @@
         <!-- Custom Fonts -->
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
+        <script src="js/script.js" type="text/javascript"></script>
+        <link href="css/form.css" rel="stylesheet" type="text/css"/>
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -475,7 +476,20 @@
             </div>
         </div>
     </section>
+<section id="contact-form">
+    <h2>Contact</h2>
+    <form action="form/send.php" method="POST" id="contact" name="contact" accept-charset="utf-8">
 
+        <label><span>Name</span><input name="name" type="text" placeholder="Name"/></label>
+        <label><span>Email</span><input name="email" type="email" placeholder="Email"/></label>
+        <label><span>Message</span><textarea name="message" placeholder="Message"></textarea></label>
+        <input name="submit" type="submit" value="Send"/>
+    </form>
+    <aside>
+        <p>Just hit Send on an empty form to see the invalid input animation</p>
+        <p>Fill in the form fields to see the success animation (no real validation, any random input will do)</p>
+    </aside>
+</section>
     <!-- Footer -->
     <footer>
         <div class="container">
