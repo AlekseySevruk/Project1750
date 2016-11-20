@@ -12,9 +12,13 @@
 
 nav.fixed {
     position:fixed;
+    margin: 0;
+    padding: 0;
     top:0; left:0;
     width:100%;
+    background: rgba(0,0,0,.8);
 }
+
 
 header { 
     width: 100%; 
@@ -31,9 +35,8 @@ body:not(.home) .header-wrap {
 }
 header nav { 
     width: 100%; 
-    max-width: 1170px;
     /*background: url("../img/custom/bg.jpg");*/ 
-    margin: 50px; 
+    margin: 50px 0;
     text-align: center;
 }
 
@@ -258,3 +261,4 @@ nav ul li a.active {
     color: #292d33; 
     margin-bottom: 10px; 
 }
+
