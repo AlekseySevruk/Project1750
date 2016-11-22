@@ -31,23 +31,24 @@ table .plan-header {
 }
 
 table .plan-header-free {
-    background-color: #fafafa;
-    color: #555
+    background-color: rgba(250, 250, 250, 0.4);
+    color: #555;
+    border:none;
 }
 
 table .plan-header-blue {
     color: #fff;
     background-color: #337ab7;
-    border-color: #3989c6
+    border-color: #3989c6;
 }
 
 table .plan-header-standard {
     color: #fff;
     background-color: #ff9317;
-    border-color: #e37900
+    border-color: #e37900;
 }
 
-table td, td {
+table td, td, th:first-child {
     padding: 7px 10px;
     background-color: rgba(250, 250, 250, 0.4);
     font-size: 14px;

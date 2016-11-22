@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
-
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,83 +26,56 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-
     </head>
 
     <body>
-
-        <!-- Navigation -->
-<!--        <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-        <nav id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-                <li class="sidebar-brand">
-                    <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
-                </li>
-                <li>
-                    <a href="#top" onclick=$("#menu-close").click();>Home</a>
-                </li>
-                <li>
-                    <a href="#about" onclick=$("#menu-close").click();>About</a>
-                </li>
-                <li>
-                    <a href="#services" onclick=$("#menu-close").click();>Services</a>
-                </li>
-                <li>
-                    <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
-                </li>
-                <li>
-                    <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
-                </li>
-            </ul>
-        </nav>-->
-
         <div class="header-wrap">
             <header id="top" class="header clearfix">
                 <nav class="clearfix menu">
                     <ul class="left-nav clearfix">
                         <li><a href="#home" class="fix">Home</a></li>                      
-                        <li><a href="#about" class="fix">About</a></li>                      
+                        <li><a href="#work" class="fix">Work</a></li>                          
                         <li><a href="#services" class="fix">Services</a></li>                                     
                     </ul>
                     <div class="logo">
                         <a href="http://pixarwpthemes.net/reborn">
-                            <img src="http://pixarwpthemes.net/reborn/wp-content/uploads/2013/09/logo.png" alt="Rebor Retro"></a>
-                            <!--<img src="img/Logo.png" alt="Logo 17:50"/>-->
+                            <!--<img src="http://pixarwpthemes.net/reborn/wp-content/uploads/2013/09/logo.png" alt="Rebor Retro"></a>-->
+                            <img src="img/Logo.png" alt="Logo 17:50"/>
+                        </a>   
                     </div>
                     <ul class="left-nav">
-                        <li><a href="#work" class="fix">Work</a></li>                      
-                        <li><a href="#price" class="fix">Цены</a></li>                     
-                        <li><a href="#contact" class="fix">Контакты</a></li>                                     
+                        <li><a href="#price" class="fix">Цены</a></li>    
+                        <li><a href="#about" class="fix">Наша команда</a></li>   
+                        <li><a href="#contacts" class="fix">Контакты</a></li>                                     
                     </ul>
                 </nav>
 
                 <div class="responsive-nav menu">
                     <a href="#" class="open">Main Navigation</a>
                     <ul>
-                        <li><a href="#home" class="fix">Home</a></li>                      
-                        <li><a href="#about" class="fix">About</a></li>                      
-                        <li><a href="#services" class="fix">Services</a></li>                      
-                        <li><a href="#work" class="fix">Work</a></li>                      
-                        <li><a href="#price" class="fix">Цены</a></li>                      
-                        <li><a href="#contact" class="fix">Контакты</a></li>                                                         
+                        <li><a href="#home" class="fix">Home</a></li>   
+                        <li><a href="#work" class="fix">Work</a></li> 
+                        <li><a href="#services" class="fix">Services</a></li>                                                     
+                        <li><a href="#price" class="fix">Цены</a></li>    
+                        <li><a href="#about" class="fix">Наша команда</a></li>   
+                        <li><a href="#contacts" class="fix">Контакты</a></li>                                                         
                     </ul>
                 </div>
                 <!-- Header -->
                 <!--        <header id="top" class="header">-->
                 <div class="row">
                     <div class="text-center">
-                        <h1>Diesel Desire Studios</h1>
-                        <h3>Don't be afraid to Make &amp; Dream</h3>
+                        <h1> 17:50</h1>
+                        <h3> Мы работает до последнего и до 17:50</h3>
                         <br>
                         <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
                     </div>
                 </div>
             </header>
         </div>
+
         <!-- About -->
         <section id="info" class="info">
-
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -114,9 +85,7 @@
                         </p>
                     </div>
                 </div>
-                <!-- /.row -->
             </div>
-            <!-- /.container -->
         </section>
 
         <!-- Services -->
@@ -181,13 +150,9 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- /.row (nested) -->
                     </div>
-                    <!-- /.col-lg-10 -->
                 </div>
-                <!-- /.row -->
             </div>
-            <!-- /.container -->
         </section>
 
         <!-- Callout -->
@@ -202,7 +167,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 col-lg-offset-1 text-center">
-                        <h2>Our Work</h2>
+                        <h2>Наши работы </h2>
                         <hr class="small">
                         <div class="row">
                             <div class="col-md-6">
@@ -234,17 +199,13 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- /.row (nested) -->
-                        <a href="#" class="btn btn-dark">View More Items</a>
+                        <a href="#" class="btn btn-dark">Посмотреть больше</a>
                     </div>
-                    <!-- /.col-lg-10 -->
                 </div>
-                <!-- /.row -->
             </div>
-            <!-- /.container -->
         </section>
 
-        <!-- Call to Action -->
+<!--         Call to Action 
         <aside class="call-to-action bg-primary">
             <div class="container">
                 <div class="row">
@@ -255,7 +216,7 @@
                     </div>
                 </div>
             </div>
-        </aside>
+        </aside>-->
 
         <!-- Price -->
         <section id="price" class="pricing">
@@ -288,7 +249,7 @@
                                     </th>
                                     <th class="plan-header plan-header-standard">
                                         <div class="header-plan-inner">
-                                            <!--<span class="plan-head"> </span>-->
+                                            <!--<span class="plan-head"> </span>-->
                                             <!--<span class="recommended-plan-ribbon">RECOMMENDED</span>-->
                                             <div class="pricing-plan-name">Интернет&#160;магазин</div>
                                             <div class="pricing-plan-price">
@@ -305,8 +266,8 @@
                                 </tr>
                                 <tr>
                                     <td>Количество страниц:</td>
-                                    <td>1 (длинная)</td>
                                     <td>до 4</td>
+                                    <td>1 (длинная)</td>
                                     <td>10</td>
                                     <td>20</td>
                                     <td> обговаривается</td>
@@ -395,89 +356,82 @@
         </div>
     </section>
 
-        
     <!-- Наша команда -->    
-    <section>
-        <div class="about-wrap" id="about">            
-            <div class="our-team clearfix">
-                <h3>Наша команда</h3>                     
-                <div class="team">
-                    <figure>
-                        <!--<a href="#"><img src="http://pixarwpthemes.net/reborn/wp-content/uploads/2013/09/team-img.png" alt="John Doe"></a>-->
-                        <a href="#"><img src="img/people/Aleksandr.jpg" alt="Aleksandr"/></a>
-                        <div class="overlay">
-                            <div class="social-icon">
-                                <a href="#" class="fa fa-twitter" target="_blank"></a>
-                                <a href="#" class="fa fa-behance" target="_blank"></a>
-                                <a href="#" class="fa fa-linkedin" target="_blank"></a>
-                                <a href="#" class="fa fa-facebook" target="_blank"></a>                            
-                            </div>
+    <section id="about">
+                <div class="container our-team">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-12 text-center">
+                            <h3>Наша команда</h3>      
                         </div>
-                    </figure>
-                    <span>Owner</span>
-                    <h4>Aleksandr</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                </div>
-                <div class="team">
-                    <figure>
-<!--                        <a href="#">
-                            <img src="http://pixarwpthemes.net/reborn/wp-content/uploads/2013/09/team-img2.png" alt="John Doe">
-                        </a>-->
-                        <a href="#"><img src="img/people/Alexey.jpg" alt="Alexey"/></a>
-                        <div class="overlay">
-                            <div class="social-icon">
-                                <a href="#" class="fa fa-pinterest" target="_blank"></a>
-                                <a href="#" class="fa fa-behance" target="_blank"></a>
-                                <a href="#" class="fa fa-linkedin" target="_blank"></a>
-                                <a href="#" class="fa fa-dribbble" target="_blank"></a>                            
+                        <div class="row">
+                            <div class="col-md-3 col-lg-3">
+                                    <a href="#">
+                                        <img src="img/people/Aleksandr.jpg" class="img-responsive" alt="Aleksandr"/>
+                                    </a>
+                                    <div class="overlay">
+                                        <div class="social-icon" style="display: none;">
+                                            <a href="#" class="fa fa-twitter" target="_blank"></a>
+                                            <a href="#" class="fa fa-behance" target="_blank"></a>
+                                            <a href="#" class="fa fa-linkedin" target="_blank"></a>
+                                            <a href="#" class="fa fa-facebook" target="_blank"></a>                            
+                                        </div>
+                                    </div>
+                                <span>PhP Developer</span>
+                                <h4>Aleksandr</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                             </div>
-                        </div>
-                    </figure>
-                    <span>PhP Developer</span>
-                    <h4>Alexey</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                </div>
-                <div class="team">
-                    <figure>
-                        <!--<a href="#"><img src="http://pixarwpthemes.net/reborn/wp-content/uploads/2013/09/team-img3.png" alt="John Doe"></a>-->
-                        <a href="#"><img src="img/people/Anastasia.jpg" alt="Anastasia"/></a>
-                        <div class="overlay" style="display: none;">
-                            <div class="social-icon">
-                                <a href="#" class="fa fa-pinterest" target="_blank"></a>
-                                <a href="#" class="fa fa-google-plus" target="_blank"></a>
-                                <a href="#" class="fa fa-dribbble" target="_blank"></a>
-                                <a href="#" class="fa fa-youtube" target="_blank"></a>                            
-                            </div>
-                        </div>
-                    </figure>
-                    <span>PhP Developer</span>
-                    <h4>Anastasia</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                </div>
-                <div class="team">
-                    <figure>
-                        <!--<a href="#"><img src="http://pixarwpthemes.net/reborn/wp-content/uploads/2013/09/team-img4.png" alt="John Doe"></a>-->
-                        <a href="#"><img src="img/people/Andrey.jpg" alt=""/>Andrey</a>
 
-                        <div class="overlay">
-                            <div class="social-icon">
-                                <a href="#" class="fa fa-pinterest" target="_blank"></a>
-                                <a href="#" class="fa fa-twitter" target="_blank"></a>
-                                <a href="#" class="fa fa-google-plus" target="_blank"></a>
-                                <a href="#" class="fa fa-facebook" target="_blank"></a>                            
+                            <div class="col-md-3 col-lg-3">
+                                    <a href="#"><img src="img/people/Alexey.jpg" class="img-responsive" alt="Alexey"/></a>
+                                    <div class="overlay">
+                                        <div class="social-icon" style="display: none;">
+                                            <a href="#" class="fa fa-pinterest" target="_blank"></a>
+                                            <a href="#" class="fa fa-behance" target="_blank"></a>
+                                            <a href="#" class="fa fa-linkedin" target="_blank"></a>
+                                            <a href="#" class="fa fa-dribbble" target="_blank"></a>                            
+                                        </div>
+                                    </div>
+                                <span>PhP Developer</span>
+                                <h4>Alexey</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                            <div class="col-md-3 col-lg-3">
+                                    <a href="#"><img src="img/people/Anastasia.jpg" class="img-responsive" alt="Anastasia"/></a>
+                                    <div class="overlay" style="display: none;">
+                                        <div class="social-icon">
+                                            <a href="#" class="fa fa-pinterest" target="_blank"></a>
+                                            <a href="#" class="fa fa-google-plus" target="_blank"></a>
+                                            <a href="#" class="fa fa-dribbble" target="_blank"></a>
+                                            <a href="#" class="fa fa-youtube" target="_blank"></a>                            
+                                        </div>
+                                    </div>
+                                <span>PhP Developer</span>
+                                <h4>Anastasia</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                            </div>
+                            <div class="col-md-3 col-lg-3">
+                                    <a href="#"><img src="img/people/Andrey.jpg" class="img-responsive" alt="Andrey"/></a>
+                                    <div class="overlay" style="display: none;">
+                                        <div class="social-icon">
+                                            <a href="#" class="fa fa-pinterest" target="_blank"></a>
+                                            <a href="#" class="fa fa-twitter" target="_blank"></a>
+                                            <a href="#" class="fa fa-google-plus" target="_blank"></a>
+                                            <a href="#" class="fa fa-facebook" target="_blank"></a>                            
+                                        </div>
+                                    </div>
+                                <span>Front-end</span>
+                                <h4>Andrey</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
                             </div>
                         </div>
-                    </figure>
-                    <span>Front-end</span>
-                    <h4>Andrey</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer>
+    <footer id="contacts">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 text-center">
