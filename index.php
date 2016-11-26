@@ -448,13 +448,13 @@
     <footer id="contacts">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 text-center">
-
-                    <div class="map-responsive">
+                    <div class="col-lg-5 col-lg-offset-1 text-center ">
+                        <div class="map-responsive">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1111.6715434130908!2d35.04405536290138!3d48.494596338726645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1478195651478" 
-                                width="600" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>        
+                                width="600" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>  
+                        </div>
                     </div>          
-                    <div class="col-lg-offset-1 col-lg-5 text-center">
+                    <div class="col-lg-4 text-center">
                         <h4><strong>17:50 studio</strong></h4>
                         <p>ул. Радистов, 10
                             <br>Днепропетровск, Украина</p>
