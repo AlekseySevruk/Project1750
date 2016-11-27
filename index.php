@@ -421,7 +421,7 @@
                         </div>
                         <span>Front-end</span>
                         <h4>Andrey</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. olor sit amet, consectetur adipisicing elit olor sit amet, consectetur adipisicing elit olor sit amet, consectetur adipisicing elit olor sit amet, consectetur adipisicing elit olor sit amet, consectetur adipisicing elit olor sit amet, consectetur adipisicing elit</p>
                     </div>
                 </div>
             </div>
@@ -536,6 +536,9 @@
             }
         });
     });
+
+    // Sidebar-menu
+
 
     // Closes the sidebar menu
     $("#menu-close").click(function (e) {
